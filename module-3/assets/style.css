@@ -1,0 +1,8 @@
+/* Ensure the dropdown menu aligns perfectly with the dropdown bar */
+.Select-menu-outer {
+    width: 100% !important; /* Match the width of the dropdown bar */
+    max-width: 75% !important; /* Adjust based on the dropdown bar's width */
+    margin: 0 auto; /* Center-align the dropdown menu */
+    left: 0; /* Align the menu with the left edge of the dropdown */
+    position: relative; /* Align it directly under the dropdown */
+}
